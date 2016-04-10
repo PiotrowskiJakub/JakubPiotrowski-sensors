@@ -5,7 +5,6 @@ import android.view.View;
 import android.widget.AdapterView;
 
 import com.piotrowski.sensors.MainActivity;
-import com.piotrowski.sensors.R;
 import com.piotrowski.sensors.items.IntentItem;
 
 public class NavListAdapter implements AdapterView.OnItemClickListener {
