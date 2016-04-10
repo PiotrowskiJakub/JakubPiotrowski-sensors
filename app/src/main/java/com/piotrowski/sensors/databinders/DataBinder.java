@@ -1,4 +1,4 @@
-package piotrowski.com.hackyourphone.databinders;
+package com.piotrowski.sensors.databinders;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;

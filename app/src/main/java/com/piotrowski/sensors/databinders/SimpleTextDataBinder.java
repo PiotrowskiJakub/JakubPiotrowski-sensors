@@ -1,11 +1,11 @@
-package piotrowski.com.hackyourphone.databinders;
+package com.piotrowski.sensors.databinders;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import piotrowski.com.hackyourphone.items.Titled;
-import piotrowski.com.hackyourphone.viewholders.SimpleTextViewHolder;
+import com.piotrowski.sensors.items.Titled;
+import com.piotrowski.sensors.viewholders.SimpleTextViewHolder;
 
 
 public class SimpleTextDataBinder implements DataBinder<Titled, SimpleTextViewHolder> {

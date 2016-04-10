@@ -1,4 +1,4 @@
-package piotrowski.com.hackyourphone.viewholders;
+package com.piotrowski.sensors.viewholders;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
@@ -7,8 +7,8 @@ import android.widget.TextView;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
-import piotrowski.com.hackyourphone.R;
-import piotrowski.com.hackyourphone.items.ExpandableItem;
+import com.piotrowski.sensors.R;
+import com.piotrowski.sensors.items.ExpandableItem;
 
 public class ExpandableViewHolder extends RecyclerView.ViewHolder {
 

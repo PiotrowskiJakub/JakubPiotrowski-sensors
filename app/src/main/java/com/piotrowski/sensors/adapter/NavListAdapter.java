@@ -1,14 +1,12 @@
-package piotrowski.com.hackyourphone.adapter;
+package com.piotrowski.sensors.adapter;
 
 import android.content.Context;
-import android.content.Intent;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.Toast;
 
-import piotrowski.com.hackyourphone.MainActivity;
-import piotrowski.com.hackyourphone.R;
-import piotrowski.com.hackyourphone.items.IntentItem;
+import com.piotrowski.sensors.MainActivity;
+import com.piotrowski.sensors.R;
+import com.piotrowski.sensors.items.IntentItem;
 
 public class NavListAdapter implements AdapterView.OnItemClickListener {
 

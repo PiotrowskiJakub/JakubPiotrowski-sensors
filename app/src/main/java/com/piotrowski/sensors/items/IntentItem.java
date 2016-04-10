@@ -1,4 +1,4 @@
-package piotrowski.com.hackyourphone.items;
+package com.piotrowski.sensors.items;
 
 import android.app.Activity;
 import android.content.Context;

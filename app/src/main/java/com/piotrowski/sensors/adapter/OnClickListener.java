@@ -1,4 +1,4 @@
-package piotrowski.com.hackyourphone.adapter;
+package com.piotrowski.sensors.adapter;
 
 import android.support.v7.widget.RecyclerView;
 

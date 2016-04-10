@@ -1,4 +1,4 @@
-package piotrowski.com.hackyourphone;
+package com.piotrowski.sensors;
 
 import org.junit.Test;
 

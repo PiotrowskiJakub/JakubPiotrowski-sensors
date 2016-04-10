@@ -1,4 +1,4 @@
-package piotrowski.com.hackyourphone.adapter;
+package com.piotrowski.sensors.adapter;
 
 import android.support.v7.widget.RecyclerView;
 import android.util.SparseArray;
@@ -8,13 +8,13 @@ import android.view.ViewGroup;
 
 import java.util.List;
 
-import piotrowski.com.hackyourphone.databinders.DataBinder;
-import piotrowski.com.hackyourphone.databinders.SensorDataBinder;
-import piotrowski.com.hackyourphone.databinders.SimpleCardDataBinder;
-import piotrowski.com.hackyourphone.databinders.SimpleTextDataBinder;
-import piotrowski.com.hackyourphone.items.IntentItem;
-import piotrowski.com.hackyourphone.items.Section;
-import piotrowski.com.hackyourphone.items.SensorItem;
+import com.piotrowski.sensors.databinders.DataBinder;
+import com.piotrowski.sensors.databinders.SensorDataBinder;
+import com.piotrowski.sensors.databinders.SimpleCardDataBinder;
+import com.piotrowski.sensors.databinders.SimpleTextDataBinder;
+import com.piotrowski.sensors.items.IntentItem;
+import com.piotrowski.sensors.items.Section;
+import com.piotrowski.sensors.items.SensorItem;
 
 public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 

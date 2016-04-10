@@ -1,4 +1,4 @@
-package piotrowski.com.hackyourphone.viewholders;
+package com.piotrowski.sensors.viewholders;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.View;

@@ -1,4 +1,4 @@
-package piotrowski.com.hackyourphone;
+package com.piotrowski.sensors;
 
 import android.content.res.Configuration;
 import android.hardware.Sensor;
@@ -23,11 +23,11 @@ import java.util.List;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
-import piotrowski.com.hackyourphone.adapter.ItemVisibilityScrollListener;
-import piotrowski.com.hackyourphone.adapter.NavListAdapter;
-import piotrowski.com.hackyourphone.adapter.RecyclerViewAdapter;
-import piotrowski.com.hackyourphone.adapter.OnClickListener;
-import piotrowski.com.hackyourphone.items.SensorItem;
+import com.piotrowski.sensors.adapter.ItemVisibilityScrollListener;
+import com.piotrowski.sensors.adapter.NavListAdapter;
+import com.piotrowski.sensors.adapter.RecyclerViewAdapter;
+import com.piotrowski.sensors.adapter.OnClickListener;
+import com.piotrowski.sensors.items.SensorItem;
 import rx.Observable;
 
 public class MainActivity extends AppCompatActivity implements OnClickListener, SensorEventListener, ItemVisibilityScrollListener.ItemVisibilityChange {

@@ -1,7 +1,7 @@
-package piotrowski.com.hackyourphone.databinders;
+package com.piotrowski.sensors.databinders;
 
 
-import piotrowski.com.hackyourphone.R;
+import com.piotrowski.sensors.R;
 
 public class SimpleCardDataBinder extends SimpleTextDataBinder {
 

@@ -1,12 +1,12 @@
-package piotrowski.com.hackyourphone.databinders;
+package com.piotrowski.sensors.databinders;
 
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
 
-import piotrowski.com.hackyourphone.R;
-import piotrowski.com.hackyourphone.adapter.RecyclerViewAdapter;
-import piotrowski.com.hackyourphone.items.SensorItem;
-import piotrowski.com.hackyourphone.viewholders.ExpandableViewHolder;
+import com.piotrowski.sensors.R;
+import com.piotrowski.sensors.adapter.RecyclerViewAdapter;
+import com.piotrowski.sensors.items.SensorItem;
+import com.piotrowski.sensors.viewholders.ExpandableViewHolder;
 
 public class SensorDataBinder implements DataBinder<SensorItem,ExpandableViewHolder> {
 
