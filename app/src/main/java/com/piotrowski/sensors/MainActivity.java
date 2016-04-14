@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity  {
     }
 
     private void addDrawerItems() {
-        String[] menuArray = { "Sensors", "Telephony manager", "Localization and status" };
+        String[] menuArray = { getResources().getString(R.string.sensors_option), getResources().getString(R.string.tm_option), getResources().getString(R.string.localization_option) };
         navAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, menuArray);
         navList.setAdapter(navAdapter);
     }
@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity  {
 
             public void onDrawerOpened(View drawerView) {
                 super.onDrawerOpened(drawerView);
-                getSupportActionBar().setTitle("Navigation");
+                getSupportActionBar().setTitle(getResources().getString(R.string.navigation_title));
                 invalidateOptionsMenu(); // creates call to onPrepareOptionsMenu()
             }
 
@@ -100,5 +100,9 @@ public class MainActivity extends AppCompatActivity  {
     public void onConfigurationChanged(Configuration newConfig) {
         super.onConfigurationChanged(newConfig);
         mDrawerToggle.onConfigurationChanged(newConfig);
+    }
+
+    public void setActivityTitle(String title) {
+        this.mActivityTitle = title;
     }
 }

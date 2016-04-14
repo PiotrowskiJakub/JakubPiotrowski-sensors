@@ -44,6 +44,7 @@ public class SensorFragment extends Fragment implements OnClickListener, SensorE
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+        ((MainActivity)getActivity()).setActivityTitle(getResources().getString(R.string.sensors_option));
         View view = inflater.inflate(R.layout.fragment_sensor, container, false);
         ButterKnife.bind(this, view);
         LinearLayoutManager layoutManager = new LinearLayoutManager(getActivity());
@@ -61,6 +62,7 @@ public class SensorFragment extends Fragment implements OnClickListener, SensorE
         list.setAdapter(listAdapter);
         listAdapter.setListener(this);
         list.addOnScrollListener(new ItemVisibilityScrollListener(layoutManager, this));
+
         return view;
     }
 
