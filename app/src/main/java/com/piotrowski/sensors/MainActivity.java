@@ -22,16 +22,12 @@ public class MainActivity extends AppCompatActivity  {
 
     private final String TAG = getClass().getName();
 
-
     @Bind(R.id.navList)
     ListView navList;
-    private ArrayAdapter<String> navAdapter;
-
-
-
-    private ActionBarDrawerToggle mDrawerToggle;
     @Bind(R.id.drawer_layout)
     DrawerLayout mDrawerLayout;
+    private ArrayAdapter<String> navAdapter;
+    private ActionBarDrawerToggle mDrawerToggle;
     private String mActivityTitle;
 
 
@@ -49,7 +45,7 @@ public class MainActivity extends AppCompatActivity  {
         mActivityTitle = getTitle().toString();
         setupDrawer();
 
-        if(savedInstanceState==null) {
+        if(savedInstanceState == null) {
             FragmentManager fragmentManager = getFragmentManager();
             FragmentTransaction transaction = fragmentManager.beginTransaction();
             transaction.add(R.id.fragment_container, SensorFragment.newInstance());
