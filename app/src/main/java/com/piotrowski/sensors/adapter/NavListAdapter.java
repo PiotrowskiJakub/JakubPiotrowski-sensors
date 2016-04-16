@@ -7,6 +7,7 @@ import android.content.Context;
 import android.view.View;
 import android.widget.AdapterView;
 
+import com.piotrowski.sensors.LocalizationFragment;
 import com.piotrowski.sensors.MainActivity;
 import com.piotrowski.sensors.R;
 import com.piotrowski.sensors.SensorFragment;
@@ -25,8 +26,10 @@ public class NavListAdapter implements AdapterView.OnItemClickListener {
         Fragment fragment = null;
         if(position == 0) {
             fragment = SensorFragment.newInstance();
-        } else {
+        } else if(position == 1){
             fragment = TelephonyManagerFragment.newInstance();
+        } else {
+            fragment = LocalizationFragment.newInstance();
         }
 
         FragmentManager fragmentManager = ((MainActivity) context).getFragmentManager();

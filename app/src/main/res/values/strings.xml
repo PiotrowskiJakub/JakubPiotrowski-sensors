@@ -5,8 +5,12 @@
     <string name="navigation_title">Navigation</string>
     <string name="sensors_option">Sensors</string>
     <string name="tm_option">Telephony Manager</string>
-    <string name="localization_option">Localization and status</string>
+    <string name="localization_option">Localization</string>
+    <string name="location_title">Current location</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="latitude_label">Latitude</string>
+    <string name="longitude_label">Longtitude</string>
+    <string name="last_update_time_label">Last location update time</string>
 </resources>
